@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>Mattermost Beta</string>
+    <string>Mattermost Beta</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -20,8 +20,27 @@
 	<string>1.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.mattermost.react.native</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.mattermost.react.native.sc2</string>
+				<string>com.mattermost.react.native.sc2.1.0.39</string>
+				<string>com.good.gd.discovery</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>39</string>
+	<key>GDApplicationID</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>GDApplicationVersion</key>
+	<string>1.0.37</string>
+	<key>GDLibraryMode</key>
+	<string>GDEnterpriseSimulation</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>LSRequiresIPhoneOS</key>
